@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding for correct text display -->
+  <meta charset="UTF-8">
+
+  <!-- Viewport settings for responsive layout -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Page title -->
+  <title>Request a Consultant | Empowering the Nation</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="css-assets/styles.css">
+</head>
+
+<body>
+  <!-- Header section: site logo and navigation menu -->
+  <header>
+    <!-- Site logo or name -->
+    <div class="logo">Empowering the Nation</div>
+
+    <!-- Main navigation bar -->
+    <nav>
+      <ul class="nav">
+        <!-- Navigation links to various pages -->
+        <li><a href="home.html">Home</a></li>
+        <li><a href="six-month.html">Six-Month Courses</a></li>
+        <li><a href="six-week.html">Six-Week Courses</a></li>
+        <li><a href="request.html">Request a Consultant</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main section containing the consultant request form -->
+  <section class="form-section">
+    <!-- Consultant request form -->
+    <form id="consult-form">
+      <!-- Form title -->
+      <h2>Request a Consultant</h2>
+
+      <!-- Input field for full name -->
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required>
+
+      <!-- Input field for phone number -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <!-- Input field for email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Course selection area -->
+      <fieldset>
+        <!-- Fieldset legend -->
+        <legend>Select Courses:</legend>
+
+        <!-- Course options with associated fees -->
+        <label><input type="checkbox" name="course" value="first-aid"> First Aid (R1500)</label><br>
+        <label><input type="checkbox" name="course" value="sewing"> Sewing (R1500)</label><br>
+        <label><input type="checkbox" name="course" value="landscaping"> Landscaping (R1500)</label><br>
+        <label><input type="checkbox" name="course" value="life-skills"> Life Skills (R1500)</label><br>
+        <label><input type="checkbox" name="course" value="child-minding"> Child Minding (R750)</label><br>
+        <label><input type="checkbox" name="course" value="cooking"> Cooking (R750)</label><br>
+        <label><input type="checkbox" name="course" value="garden-maintenance"> Garden Maintenance (R750)</label><br>
+      </fieldset>
+
+      <!-- Button to trigger total fee calculation -->
+      <button type="button" id="calc-btn">Calculate Fees</button>
+
+      <!-- Display area for calculated total fees -->
+      <label for="total-fees">Total Fees:</label>
+      <input type="text" id="total-fees" name="total-fees" readonly>
+    </form>
+
+    <!-- Additional total display area (if needed for dynamic updates) -->
+    <div id="total"></div>
+  </section>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2025 Empowering the Nation</p>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="js.assets/scripts.js"></script>
+</body>
+</html>
