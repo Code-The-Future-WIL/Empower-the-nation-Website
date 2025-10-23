@@ -479,21 +479,93 @@ footer {
   background-color: #5a9057;
 }
 
-  
+/* === Map Container === */
+.map-container {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.map-container:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+/* === Address Dropdown === */
 .address-selector {
   margin-bottom: 20px;
- }
-        
-select {
- width: 100%;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address-selector label {
+  font-weight: 600;
+  color: #333;
+}
+
+.address-selector select {
+  width: 100%;
+  padding: 12px 15px;
   font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
- }
-        
-  iframe {
-   border-radius: 4px;
-   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      }
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.address-selector select:hover,
+.address-selector select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+/* === Map Display === */
+iframe#map-display {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+iframe#map-display:hover {
+  transform: scale(1.01);
+}
+
+
+      /* ===== Request Button Styling ===== */
+#request-btn {
+  display: inline-block;
+  background-color:  #6ba368; /* Empowering blue */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+#request-btn:hover {
+  background-color: #5a9057;
+  transform: scale(1.03);
+}
+
+/* Click/active state */
+#request-btn:active {
+  background-color: #5a9057;
+  transform: scale(0.98);
+}
