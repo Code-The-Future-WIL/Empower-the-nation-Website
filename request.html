@@ -72,7 +72,20 @@
 
       <!-- Display area for calculated total fees -->
       <label for="total-fees">Total Fees:</label>
+      
       <input type="text" id="total-fees" name="total-fees" readonly>
+      <!-- Detailed fee breakdown -->
+    <div id="fee-breakdown" class="fee-details">
+      <p><strong>Subtotal:</strong> <span id="subtotal-display">R0.00</span></p>
+      <p><strong>Discount:</strong> <span id="discount-display">-R0.00</span></p>
+      <p><strong>Price After Discount:</strong> <span id="after-discount-display">R0.00</span></p>
+      <p><strong>VAT (15%):</strong> <span id="vat-display">R0.00</span></p>
+      <p><strong>Final Total:</strong> <span id="final-total-display">R0.00</span></p>
+    </div>
+
+     <!-- Button to trigger consultation request -->
+     <button type="button" id="request-btn">Request Consultation</button>
+
     </form>
 
     <!-- Additional total display area (if needed for dynamic updates) -->

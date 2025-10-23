@@ -479,8 +479,21 @@ footer {
   background-color: #5a9057;
 }
 
-
-
-
-
-
+  
+.address-selector {
+  margin-bottom: 20px;
+ }
+        
+select {
+ width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+ }
+        
+  iframe {
+   border-radius: 4px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }

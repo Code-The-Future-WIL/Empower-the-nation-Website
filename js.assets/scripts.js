@@ -1,4 +1,3 @@
-// Wait until the DOM is fully loaded before running the script
 document.addEventListener("DOMContentLoaded", function () {
   // Log to console to confirm JS connection
   console.log("✅ JS is connected and running");
@@ -39,6 +38,22 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("💰 Total calculated:", total);
   });
 });
-
-
-
+ document.addEventListener('DOMContentLoaded', function() {
+            const dropdown = document.getElementById('address-dropdown');
+            const mapDisplay = document.getElementById('map-display');
+            
+            // Map URLs for each address 
+            const mapUrls = [
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.123456789012!2d28.0473053!3d-26.2041028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s463%20Main%20St%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza",
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.123456789012!2d27.8274954!3d-26.3205703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a5fcd021a34f%3A0xdfa70b2bc402fe81!2s33%20Rose%20Avenue%2C%20Lenasia%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza",
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.123456789012!2d28.0473053!3d-26.2041028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950a58432f96ab%3A0xf82ce26908d67f01!2s24%20Market%20Road%2C%20Newlands%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza"
+            ];
+            
+            // Add event listener to dropdown
+            dropdown.addEventListener('change', function() {
+                const selectedIndex = this.value;
+                if (selectedIndex !== "") {
+                    mapDisplay.src = mapUrls[selectedIndex];
+                }
+            });
+        });
