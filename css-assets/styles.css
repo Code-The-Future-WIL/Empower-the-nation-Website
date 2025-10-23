@@ -569,3 +569,31 @@ iframe#map-display:hover {
   background-color: #5a9057;
   transform: scale(0.98);
 }
+
+.fee-container {
+  max-width: 350px;
+  margin: 20px auto; /* center horizontally with some space top/bottom */
+  padding: 20px 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.fee-container p {
+  font-size: 1rem;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fee-container strong {
+  font-weight: 600;
+}
+
+.fee-container span {
+  font-weight: 500;
+  color: #2c3e50;
+}
