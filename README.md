@@ -104,6 +104,4 @@
         <a href="https://www.google.com/maps/dir/The+IIE's+Varsity+College+-+Durban+North,+Radar+Drive,+Durban+North,+Durban/24+Market+Road,+Newlands,+Johannesburg" target="_blank">Map Location 3</a>
       </li>
     </ul>
-  </li><h1>🌍 Empowering the Nation Website</h1>
-
-<img width="158" height="158" alt="Empowering the Nation Logo" src="https://github.com/user-attachments/assets/fb9ca0bc-9e8b-4ff8-a69f-bdd99770ba45" />
+ 
