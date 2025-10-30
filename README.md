@@ -1,4 +1,4 @@
-<h1>🌍 Empowering the Nation Website</h1>
+<h1>Empowering the Nation Website</h1>
 
 <img width="158" height="158" alt="Empowering the Nation Logo" src="https://github.com/user-attachments/assets/fb9ca0bc-9e8b-4ff8-a69f-bdd99770ba45" />
 
@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<h2>🌟 Project Overview</h2>
+<h2>Project Overview</h2>
 <p>
   <strong>Empowering the Nation</strong> is a community-focused website that provides practical
   skills training for <strong>domestic workers</strong> and <strong>gardeners</strong>. Founded by
@@ -21,7 +21,7 @@
   the organization.
 </p>
 
-<h2>💡 Core Features</h2>
+<h2>Core Features</h2>
 <ul>
   <li>Course Catalog & Information</li>
   <li>Online Fee Calculator</li>
@@ -29,7 +29,7 @@
   <li>Responsive User-Friendly Navigation</li>
 </ul>
 
-<h2>🖥️ Technical Features</h2>
+<h2>Technical Features</h2>
 <ul>
   <li>Responsive Web Design (HTML, CSS, JavaScript)</li>
   <li>Interactive Navigation & Form Handling</li>
@@ -37,13 +37,13 @@
   <li>Clean, Accessible User Interface</li>
 </ul>
 
-<h2>💼 Business Features</h2>
+<h2>Business Features</h2>
 <ul>
   <li>Course Management – Display and update course offerings</li>
   <li>Contact Management – Handle user inquiries and registration forms</li>
 </ul>
 
-<h2>🔄 Workflow & User Journey</h2>
+<h2>Workflow & User Journey</h2>
 <ol>
   <li>Homepage (Welcome Screen)</li>
   <li>Six-Month and Six-Week Courses</li>
@@ -52,7 +52,7 @@
   <li>Location Page (with Integrated Google Maps)</li>
 </ol>
 
-<h2>📱 Website Pages</h2>
+<h2>Website Pages</h2>
 <ol>
   <li>Home (Welcome)</li>
   <li>Six-Month Courses</li>
@@ -68,7 +68,7 @@
   <li>Contact / Registration</li>
 </ol>
 
-<h2>📚 References</h2>
+<h2>References</h2>
 <ul>
   <li>
     Android Developers. (2025). <em>Intents and intent filters</em> [Documentation].
