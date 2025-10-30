@@ -2,7 +2,7 @@
 
 <img width="158" height="158" alt="Empowering the Nation Logo" src="https://github.com/user-attachments/assets/fb9ca0bc-9e8b-4ff8-a69f-bdd99770ba45" />
 
-<h2>🎥 YouTube Demo</h2>
+<h2>YouTube Demo</h2>
 <p>
   <a href= "https://youtu.be/a19rvYSnpzc?feature=shared" target="_blank">
     Watch the video here
